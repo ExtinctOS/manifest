@@ -18,6 +18,26 @@
            sync-c="true"
            sync-j="4" />
 
+  <!-- Neoteric remotes -->
+  <remote  name="neoteric"
+           fetch="https://github.com/Neoteric-OS"
+           revision="refs/heads/bka" />
+
+  <remote  name="neoteric-gitlab"
+           fetch="https://gitlab.com/neoteric-os"
+           revision="bka" />
+
+  <remote  name="neoteric-gitea"
+           fetch="https://gitea.com/Neoteric-OS"
+           revision="refs/heads/bka" /> 
+
+  <!-- ExtinctOS -->
+  <remote  name="extinct"
+           fetch="https://github.com/ExtinctOS"
+           revision="refs/heads/bka" />
+
+  <include name="snippets/extinct.xml"/>
+
   <superproject name="platform/superproject" remote="aosp" revision="android-16.0.0_r1" />
   <contactinfo bugurl="go/repo-bug" />
 
