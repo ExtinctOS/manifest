@@ -16,6 +16,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <remove-project name="platform/build/release" />
+  <project path="build/release" name="android_build_release" remote="extinct" />
 
   <!-- Core -->
   <remove-project name="LineageOS/android_bionic" />
